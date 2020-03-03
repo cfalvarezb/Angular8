@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-body',
-  templateUrl: './body.component.html',
-  styles: []
+    selector: 'app-body',
+    templateUrl: './body.component.html'
 })
-export class BodyComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class BodyComponent {
+    constructor() {}
 }
